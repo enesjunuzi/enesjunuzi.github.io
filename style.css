@@ -1,0 +1,55 @@
+.background-size:100% 100%;
+
+#Titel{
+  text-shadow: 2px 2px 0px white ;
+  top:10px;
+  height:100px;
+}
+#OBEN{
+  font-size:35px;
+  align-items: center;
+  text-align: center;
+  text-shadow: black;
+  align: center;
+  background-color: #333333;
+  height: 60px;
+  top:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+
+
+a{
+  color: #FF7000  ;
+  font-family: fantasy;
+  width:10px
+}
+#Name{
+  color: black;
+  font-family: arial white;
+  font-size: 70px;
+}
+#current{
+  text-shadow: 1px 1px 0px White;
+  color:red;
+}
+#MITTE{
+  grid-template-columns: 3;
+  grid-template-rows: 3;
+}   
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% auto; 
+    grid-template-rows: 200px 75px; 
+    grid-gap: 30px 30px; 
+}
+
+
+
+
+
+
